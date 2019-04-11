@@ -1,0 +1,146 @@
+*
+{
+	margin:0;
+	border:0;
+}
+body
+{
+font-family: Homer Simpson, cursive;
+width: 100%;
+height: 100%;
+background-image: url(fondo.jpg)
+}
+#lista
+{
+width: 100%;
+height: 85px;
+background-color: rgba(6, 6, 5 ,0.6);
+border-bottom: 5px solid #ffffff;
+position: relative;
+}
+#desplegables
+{
+	float:left;
+width: 100px;
+height: 45px;
+text-align: center;
+color:white;
+vertical-align: middle;
+margin-left: 10px;
+ background-color: black;
+margin-right: 40px;
+margin-top: 15px; 
+}
+#contenido
+{ background-image: linear-gradient(black,#666565);
+	display: none;
+	width: 100px;
+    height: 45px;
+    text-align: center;
+    float: all;
+}
+#desplegables:hover
+{
+	background-color:#666565; 
+}
+#desplegables:hover #contenido
+{
+display:inline-block;
+}
+#contenido:hover
+{
+	background-image: linear-gradient(#666565,white);
+}
+#boton
+{
+margin-top: 5px;
+font-size: 14px;
+text-anchor: 1px;
+}
+#imagen
+{
+height: 180px;
+width: 250px; 
+float: left;
+margin-left: 40px;
+margin-top: 20px;
+border: 2px solid black;
+}
+#img
+{
+	width: 100%;
+	height:245px;
+	border-top:3px solid white;
+	border-bottom: 3px solid white; 
+	float:left; 
+	margin-top:3px; 
+}
+#cuerpo
+{
+width: 100%;
+height: 505px;
+background-color:rgba(113,46,0,0.7);
+margin-top: 30px;
+border-top: 7px solid #000000;
+border-bottom: 7px solid #000000;
+}
+#nombre
+{
+font-family:Freestyle Script,cursive;
+font-size: 60px;
+text-anchor: 20px;
+color: white;
+margin-top: 20px;
+}
+#nutri
+{
+	width:200;
+	height:200;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px; 
+}
+#informacion
+{
+	border-radius: 93px 93px 93px 93px;
+-moz-border-radius: 93px 93px 93px 93px;
+-webkit-border-radius: 93px 93px 93px 93px;
+border: 2px solid #e7a61a;
+	margin-top:5px;
+margin-bottom: 2px;
+margin-left: 10px; 
+	width: 65%;
+	height: 50px;
+	background-color: rgba(6, 6, 5 ,0.7);
+  color:white;
+  float: left;
+}
+#dueños
+{
+width: 40%;
+height:450px;
+background-color: rgba(6, 6, 5 ,0.2);
+border: 5px solid black;
+margin-left: 30px;
+float: left;
+color: white;
+margin-top:10px;
+font-size: 18px;
+text-anchor: 16px;
+}
+a
+{
+color: white;
+text-decoration: none;
+}
+#descripcion
+{
+width: 95%;
+height:60px;
+background-color: rgba(6, 6, 5 ,0.5);
+border: 2px solid #e7a61a;
+float: left;
+font-size: 40px; 
+color: white;
+margin-top: 15px;
+}
